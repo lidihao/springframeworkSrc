@@ -28,6 +28,7 @@ import org.springframework.util.Assert;
 import org.springframework.util.ClassUtils;
 
 /**
+ * 配置Bean的Scope
  * Simple {@link BeanFactoryPostProcessor} implementation that registers
  * custom {@link Scope Scope(s)} with the containing {@link ConfigurableBeanFactory}.
  *

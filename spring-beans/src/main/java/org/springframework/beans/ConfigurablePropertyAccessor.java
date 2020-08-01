@@ -34,6 +34,7 @@ import org.springframework.lang.Nullable;
 public interface ConfigurablePropertyAccessor extends PropertyAccessor, PropertyEditorRegistry, TypeConverter {
 
 	/**
+	 * 转化服务，用于转化属性用来代替属性编辑器
 	 * Specify a Spring 3.0 ConversionService to use for converting
 	 * property values, as an alternative to JavaBeans PropertyEditors.
 	 */

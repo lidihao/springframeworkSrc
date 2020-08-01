@@ -40,6 +40,8 @@ import org.springframework.util.ObjectUtils;
 import org.springframework.util.ReflectionUtils;
 
 /**
+ * FactoryBean的简单实现，通过一个flay来决定是生产单例对象还是生产多例对象
+ *
  * Simple template superclass for {@link FactoryBean} implementations that
  * creates a singleton or a prototype object, depending on a flag.
  *
